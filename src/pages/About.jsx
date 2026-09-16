@@ -3,7 +3,7 @@ const About = () =>{
     <div>
     <h3>About me</h3>
     <br/>
-    <div>saya Do'a wahyudi merupkan mahasiswa ilmu komputer semester 3 </div>
+    <div>saya samsurrizal merupkan mahasiswa ilmu komputer semester 3 </div>
    </div>
   )
 }

@@ -1,9 +1,21 @@
-const Home = () => {
+import Hero from "../component/Hero.jsx";
+import CardGrid from "../component/CardGrid.tsx";
+import { featureData } from "../data/features.js";
+
+function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <p>Ini adalah halaman Home</p>
+      <div>Home</div>
+
+      <section>
+        <Hero />
+      </section>
+
+      <section>
+        <CardGrid features={featureData} />
+      </section>
     </div>
   );
-};
+}
+
 export default Home;

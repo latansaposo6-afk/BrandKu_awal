@@ -1,5 +1,5 @@
 // PERBAIKAN: Mengubah ( ) menjadi { } pada import
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {  Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
